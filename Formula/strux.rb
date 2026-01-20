@@ -7,10 +7,10 @@ class Strux < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/strux-dev/strux/releases/download/v0.0.10/strux-0.0.10-darwin-arm64.tar.gz"
-      sha256 "064e2016029d1c30fa624dd6daa8e427bf1afefd62a740c7b50d23fc0d8618cc"
+      sha256 "e3406acd73db705b57000175ca704061ef0e2eedf902750211d8eda50008f732"
     else
       url "https://github.com/strux-dev/strux/releases/download/v0.0.10/strux-0.0.10-darwin-x64.tar.gz"
-      sha256 "78ac302f266b0aa52653039653372edcecfabe64dd3b58d6a9e5d8b8091b3c49"
+      sha256 "08806de94fb2098b9310883666ae4c7faa71102fa0858ad852a9d3ca3b3bd2c6"
     end
   end
 
